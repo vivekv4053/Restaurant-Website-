@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <script src="/main.js"></script>
+  </head>
+  <body id="body-id">
+    <div id="preloader">
+      <div class="loader">
+        <div class="loadCircle"></div>
+        <div class="loadCircle"></div>
+        <div class="loadCircle"></div>
+        <div class="loadCircle"></div>
+        <div class="loadCircle"></div>
+      </div>
+    </div>
+    <div class="main">
+      <header>
+        <a href="#banner" class="logo">Food <span>.</span></a>
+        <div class="menuToggle" onclick="toggleMenu();"></div>
+        <ul class="navigation">
+          <li><a href="#banner" onclick="toggleMenu();">Home</a></li>
+          <li><a href="#about" onclick="toggleMenu();">About</a></li>
+          <li><a href="#menu" onclick="toggleMenu();">Menu</a></li>
+          <li><a href="#expert" onclick="toggleMenu();">Expert</a></li>
+          <li>
+            <a href="#testimonials" onclick="toggleMenu();">Testimonials</a>
+          </li>
+          <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+        </ul>
+      </header>
+      <section class="banner" id="banner">
+        <div class="content">
+          <h2>Always choose Best</h2>
+          <p>
+            When its the matter of Food, We always becomes more careful about
+            it's hygiene. It is very obvious. We should eat very hygienic food
+            to stay healthy in this world of disease to stay healthy. We had to
+            choose the best food to stay healthy and waelthy because health is
+            waelth.
+          </p>
+          <a href="#menu" class="btn">Our MEnu</a>
+        </div>
+      </section>
+      <section class="about" id="about">
+        <div class="row">
+          <div class="col50">
+            <h2 class="titleText"><span>A</span>bout Us</h2>
+            <p>
+              We have started this food delivery website to deliver the Best
+              food within the minimum time. we think, If we Aren't able to
+              deliver the food within minimum Time, It will start lossing it's
+              Taste. <br /><br />
+              Many food delivery website are making the quite well food but They
+              aren't able to deliver their food in Time ; So their customers
+              didn't feel satisfied with their food's taste. In order to
+              Fullfill their needs We make this whole System to satisfy the
+              needs of customers. We rapidly deliver, the best quality of Food
+              at the lowest price.
+            </p>
+          </div>
+
+          <div class="col50">
+            <div class="imgBox">
+              <img src="./image/food1.jpeg" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="menu" id="menu">
+        <div class="title">
+          <h2 class="titleText">Our <span>M</span>enu</h2>
+          <p>We have various best dishes from the various cuisines.</p>
+        </div>
+        <div class="content">
+          <div class="box">
+            <div class="imgBox">
+              <img src="./image/salad.jpg" />
+            </div>
+            <div class="text">
+              <h3>Special Salads</h3>
+            </div>
+          </div>
+          <div class="box">
+            <div class="imgBox">
+              <img src="./image/soup.jpg" />
+            </div>
+            <div class="text">
+              <h3>Special Soup</h3>
+            </div>
+          </div>
+          <div class="box">
+            <div class="imgBox">
+              <img src="./image/pasta.jpg" />
+            </div>
+            <div class="text">
+              <h3>Special Pasta</h3>
+            </div>
+          </div>
+          <div class="box">
+            <div class="imgBox">
+              <img src="./image/sandwich.jpg" />
+            </div>
+            <div class="text">
+              <h3>Grilled Cheese Sandwich</h3>
+            </div>
+          </div>
+          <div class="box">
+            <div class="imgBox">
+              <img src="./image/pav bhaji.jpg" />
+            </div>
+            <div class="text">
+              <h3>Special Pav Bhaji</h3>
+            </div>
+          </div>
+          <div class="box">
+            <div class="imgBox">
+              <img src="./image/dosa.webp" />
+            </div>
+            <div class="text">
+              <h3>Delicious Dosa</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="expert" id="expert">
+        <div class="title">
+          <h2 class="titleText">Our Kitchen <span>E</span>xpert</h2>
+          <p>
+            We have very trained chefs helping us to deliver the delicious food.
+          </p>
+        </div>
+        <div class="content">
+          <div class="box">
+            <div class="imgBox">
+              <img src="./image/Ranveer_Brar.jpg" />
+            </div>
+            <div class="text">
+              <h3>Ranveer Brar</h3>
+            </div>
+          </div>
+          <div class="box">
+            <div class="imgBox">
+              <img src="./image/Amninder Sandhu.webp" />
+            </div>
+            <div class="text">
+              <h3>Amninder Sandhu</h3>
+            </div>
+          </div>
+          <div class="box">
+            <div class="imgBox">
+              <img src="./image/Vineet-Bhatia.webp" />
+            </div>
+            <div class="text">
+              <h3>Mr. Vineet Bhatia</h3>
+            </div>
+          </div>
+          <div class="box">
+            <div class="imgBox">
+              <img src="./image/Harpal-Singh-Sokhi2.jpg" />
+            </div>
+            <div class="text">
+              <h3>Harpal Singh Sokhi</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="testimonials" id="testimonials">
+        <div class="title white">
+          <h2 class="titleText">They <span>S</span>aid About Us</h2>
+          <p>Our valuable Customers feedbacks</p>
+        </div>
+        <div class="content">
+          <div class="box">
+            <div class="imgBox">
+              <img src="./image/Standing shy.jpg" />
+            </div>
+            <div class="text">
+              <p>
+                Everything was very Delicious and the most important all the
+                items are at the Best Price. Great Food taste at the best price,
+                I have seen Ever. <br />
+                Must try Special Pav Bhaji . <br />Overall Great experience with
+                food and website also.
+              </p>
+              <h3>Customer 1</h3>
+            </div>
+          </div>
+          <div class="box">
+            <div class="imgBox">
+              <img src="./image/Standing happy holding book.jpg" />
+            </div>
+            <div class="text">
+              <p>
+                Everything was Delivered very Perfectly. Food packaging matters
+                very much for customer and for food also.Food Packaging was
+                superb with very fast Delivery. Everything We ordered was very
+                tasty and received at it's very best condition.
+              </p>
+              <h3>Customer 2</h3>
+            </div>
+          </div>
+          <div class="box">
+            <div class="imgBox">
+              <img src="./image/Standing shy.jpg" />
+            </div>
+            <div class="text">
+              <p>
+                Everything was Fantastic. Pav Bhaji was Great in taste and
+                quality of every food item was fabulous. Deliver food in
+                estimated time also increase the chance to select this website
+                from others. Special Pasta is highly Recommended
+              </p>
+              <h3>Customer 3</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <div class="title">
+          <h2 class="titleText"><span>C</span>ontact Us</h2>
+          <p>Contact us for Huge orders, Queries and for Complaints.</p>
+        </div>
+        <div class="contactForm">
+          <form
+            action="https://formsubmit.co/39554026dfcbf9cb3ac244b1a190478b"
+            method="POST"
+          >
+            <h3>Send Message</h3>
+            <div class="inputBox">
+              <input type="text" name="Name" placeholder="Name" />
+            </div>
+            <div class="inputBox">
+              <input type="text" name="Email" placeholder="Your Email" />
+            </div>
+            <div class="inputBox">
+              <textarea
+                type="text"
+                name="Message"
+                placeholder="Message"
+              ></textarea>
+            </div>
+            <div class="inputBox">
+              <input type="submit" value="Send" />
+            </div>
+          </form>
+        </div>
+      </section>
+      <div class="copyrightText">
+        <p>
+          This website is a team project completed by Me(Shubham Dhyani) and my
+          teammate (Vivek Gautam).
+        </p>
+      </div>
+      <div class="copyrightText">
+        <p>Copyright 2022 <a href="#">Team DHYANI</a> . All right Reserved.</p>
+      </div>
+    </div>
+
+   <script src="./main.js"></script>
+  </body>
+</html>
