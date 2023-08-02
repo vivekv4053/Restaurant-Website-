@@ -30,7 +30,7 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url("heroImg.jpg");
+  background-image: url("heroImg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-blend-mode: soft-light;
