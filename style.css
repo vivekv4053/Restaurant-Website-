@@ -30,7 +30,7 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url(./image/heroImg.jpg);
+  background: url(./heroImg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-blend-mode: soft-light;
@@ -262,7 +262,7 @@ section {
 }
 
 .testimonials {
-  background: url(./image/food1.jpeg);
+  background: url(./food1.jpeg);
   background-size: cover;
 }
 
@@ -343,7 +343,7 @@ section {
 }
 
 .contact {
-  background: url(./image/contact\ us.webp);
+  background: url(./contact\ us.webp);
   background-size: 115% 100%;
 }
 
@@ -462,7 +462,7 @@ section {
     position: relative;
     width: 40px;
     height: 40px;
-    background: url(./image/menuIcon.png);
+    background: url(./menuIcon.png);
     background-size: 30px;
     background-repeat: no-repeat;
     background-position: center;
@@ -471,7 +471,7 @@ section {
   }
 
   .menuToggle.active {
-    background: url(./image/exit-icon-png-2.jpg);
+    background: url(./exit-icon-png-2.jpg);
     background-size: 30px 30px;
     background-repeat: no-repeat;
     background-position: center;
